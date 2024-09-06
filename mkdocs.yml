@@ -1,0 +1,25 @@
+theme:
+    name: material
+    palette:
+        primary: teal
+        accent: amber
+    logo: assets/logo.png
+    favicon: assets/logo.png
+site_name: 2024年度旧帝大コンサート演目解説Webサイト
+nav:
+    - Home: 'index.md'
+extra_css:
+    - "css/custom.css"
+markdown_extensions:
+    - attr_list
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+            - class: mermaid
+            - format: !!python/name:pymdownx.superfences.fence_code_format
+    - fontawesome_markdown
+
+copyright: Copyright &copy; 2024 - KateSawada
