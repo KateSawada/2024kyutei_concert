@@ -54,7 +54,7 @@ Mulsheは「Multi Stage」の名前の通り、一度にポンと楽曲ができ
 更に、この値と楽曲は相互に変換が可能です。
 この、「512個の数字の組み合わせ」⇔「1小節分の楽曲」の変換を行うAIを最初に構築します。
 <div style="text-align: center;">
-    <img src="/images/a_1.drawio.png">
+    <img src="images/a_1.drawio.png">
 </div>
 
 ここまでで、存在しうる楽曲の小節のほとんどは、512個の数字の組み合わせで表現できることがわかりました。
@@ -67,7 +67,7 @@ Mulsheは「Multi Stage」の名前の通り、一度にポンと楽曲ができ
 音楽も同じように、小節を適切に並べることで違和感が少ないものとなると予想されます。
 
 <div style="text-align: center;">
-    <img src="/images/a_2.drawio.png">
+    <img src="images/a_2.drawio.png">
 </div>
 
 そこで、**1段階目**の作曲手順として、小節ごとの512個の値の並びを作るAIシステム①が登場します。
