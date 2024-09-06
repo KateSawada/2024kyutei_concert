@@ -10,3 +10,5 @@ $ mkdocs serve
 
 ## GitHub Pagesへのデプロイ
 mainにpushするだけ
+
+or `$ mkdocs gh-deploy` （こっちのほうが確実? 特に初回は??）
