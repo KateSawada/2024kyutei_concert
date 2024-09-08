@@ -5,6 +5,7 @@ theme:
         accent: amber
     logo: assets/logo.png
     favicon: assets/logo.png
+    text: Noto Sans JP
 site_name: 2024年度旧帝大コンサート演目解説Webサイト
 nav:
     - Home: 'index.md'
